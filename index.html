@@ -6,37 +6,42 @@
     <title>Google</title>
   </head>
   <body>
-  	<div id="wrapper">
-  		<div id="header">
-  			<ul>
-  				<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-  				<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=OjPmVqD5CYW7mwXb_6X4CA&ved=0EKouCBYoAQ">Images</a></li>
-  				<li><a href="https://www.google.com/intl/en/options/"><img src='images/apps_selected.png' style="opacity: 0.75" onmouseover="this.style.opacity=1.00;" onmouseout="this.style.opacity=0.75;" /></a></li>
-    			<li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fgfe_rd%3Dcr%26ei%3DODPmVprwC5OL8QePna7oDQ%26gws_rd%3Dssl,cr%26fg%3D1"><button>Sign in</button></a></li>
-    		</ul>
-    	</div>
-    	<div id="content">
-    		<img src="images/google_logo.png" alt="Google" />
-    		<form action="#" method="GET" name="google_search">
-    			<input type="search" name="q" /><br>
-    			<input type="submit" name="basic" value="Google Search" />
-    			<input type="submit" name="lucky" value="I'm Feeling Lucky" />
-    		<p>The world is closer than ever. <a href="https://www.google.com/url?q=https://translate.google.com/about/intl/en_ALL/languages&source=hpp&id=5083995&ct=3&usg=AFQjCNFPHygcBPfzhkjNkhTbitoepQoIxg&sa=X&ved=0ahUKEwio-ZTcjL_LAhWiUqYKHWRPDsIQ8IcBCAk">Google Translate, now in over 100 languages.</a></p>
-    		</form>
-    	</div>
-    	<div id="footer">
-    		<ul>
-    			<li>Advertising</li>
-    			<li>Business</li>
-    			<li>About</li>
-    		</ul>
-    		<ul style="float:right">
-    			<li>Privacy</li>
-    			<li>Terms</li>
-    			<li>Settings</li>
-    			<li>Use Google.co.jp</li>
-    		</ul>
-    	</div>
+    <div id="header">
+      <ul>
+        <li style="opacity: 0.6">Ed</li>
+        <li><a href="">Gmail</a></li>
+        <li><a href="">Images</a></li>
+        <li><a href=""><img src="images/apps.png" style="opacity: 0.60" onmouseover="this.style.opacity=1.00;" onmouseout="this.style.opacity=0.60;" /></a></li>
+        <li><a href=""><img src="images/notifications.png" style="opacity: 0.60" onmouseover="this.style.opacity=1.00;" onmouseout="this.style.opacity=0.60;" /></a></li>
+        <li><a href=""><img src="images/profile.png"></a></li>
+      </ul>  
+    </div>
+    <div id="content">
+      <img src="images/google_logo.png">
+      <div id="form">
+        <form action="#" method="GET">
+          <input type="search" name="search_query"/><br>
+          <button type="submit" name="basic_search" value="Google Search">Google Search</button>
+          <button type="submit" name="lucky_search" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+        </form>
+      </div> 
+      <p>Google.co.jp offered in: <a href="" style="color: #1A0DAB">日本語</a></p> 
+    </div>
+    <div id="footer_left">
+        <ul>
+          <li><a href="">Advertising</a></li>
+          <li><a href="">Business</a></li>
+          <li><a href="">About</a></li>
+        </ul>  
+      </div>
+      <div id="footer_right">
+        <ul>
+          <li><a href="">Privacy</a></li>
+          <li><a href="">Terms</a></li>
+          <li><a href="">Settings</a></li>
+          <li><a href="">Use Google.com</a></li>
+        </ul>  
+      </div> 
     <script src="scripts/main.js"></script>
   </body>
 </html>
