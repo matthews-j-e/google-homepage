@@ -77,8 +77,7 @@ a:hover {
 	margin: 10% auto;
 }
 
-#content p {
-	margin: -5%;
+p {
 	text-align: center;
 }
 
@@ -102,7 +101,6 @@ input[type=search]:hover {
 
 button {
 	margin-top: 20px;
-	margin-left: 80px;
 	width: 150px;
 	height: 36px;
 	font-weight: bold;
@@ -121,4 +119,8 @@ button:hover {
 
 button:focus {
 	border: 1px solid #1e4fff;
+}
+
+button[name=basic_search] {
+	margin-left: 125px;
 }
